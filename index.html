@@ -1,1 +1,81 @@
+<!DOCTYPEhtml>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"
+          <title> the groom place </title>
+  <link rel="stylesheet"href="styles.css">
+    </head>
 
+<body>
+  <nav>
+    <ul class="nav">
+      <li><a href=#home class=navlink>Home</a></li>
+      <li><a href=#services class=navlink>Services</a></li>
+      <li><a href=#appointment class=navlink>Appointment</a></li>
+      <ul/>
+  </nav>
+    
+    <section id="home">
+      <img src="logo.png"alt="Logo"id="logo"/>
+      <h1> Welcome to the groom place</h1>
+      <p> barber services</p>
+    </section>
+      
+     <section id="ourservices"class="services">
+      <h2>our services</h2>
+       <table class="table">
+         <tr>
+           <th>image</th>
+           <th>services</th>
+           <th>price list</th>
+         </tr>
+         
+         <tr>
+           <td><img src="img1.png"alt="thegroom"class="image1>"</td>
+                    <td>hair cut service</td>
+           <td>0.500BD</td>
+           
+         </tr>
+         
+       <tr>
+         <td><img src="image2.png"alt="thegroom" class="image"></td>
+         <td>face mask</td>
+         <td>1.500BD</td>
+         </tr>
+       
+         <tr>
+           <td><img src="image3.png"alt="thegroom"class="image3"></td>
+           <td>groom day all services</td>
+           <td>15BD</td>
+         </tr>
+         
+         <tr>
+           <td><img src="image4.png"alt="thegroom"class="image4"></td>
+           <td> scrub </td>
+           <td>1.200BD</td>
+         </tr>
+       </table>
+    </section>
+       
+   <section id="appointment">
+     <h2>pick an appointment</h2>
+     
+     <form id="pickanappointment">
+       <lable for="name">your name</label><br>
+       <input type="text"id="name"required/><br><br>
+        
+       <label for="email">your email</label><br>
+       <input type="email"id="email"required/><br><br>
+       
+       <lable for="message">type your needed service</label><br>
+       <textarea id="message" rows="3" cols="50"required></textarea><br><br>
+       
+       <button type="submit">submit</button>
+     </form>
+    </section>
+    
+    <footer>
+      <p>&copy; 2025 all rights reserved</p>
+    </footer>
+    
+    <script src="script.js"></script>
